@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Hind;
+  font-size: 4vw;
+}
+
+.container {
+  width: 96vw;
+  height: 96vh;
+  margin: 2vh auto;
+  /*background-color: blue;*/
+}
+
+/*header*/
+.header {
+  /*background-color: green;*/
+  width: 96vw;
+}
+
+.header-links li{
+  display: inline-block;
+  padding: 5px 5px;
+}
+
+/*intro*/
+.intro-text {
+  /*background-color: purple;*/
+  width: 96vw;
+}
+
+.intro-text p{
+  padding-bottom: 1.5vh;
+}
+
+/*images with captions*/
+.img {
+  width: 70vw;
+  /*background-color: red;*/
+  margin: 3vh 13vw;
+}
+
+.img img{
+  width: inherit;
+}
